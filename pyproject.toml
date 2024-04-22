@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "modul 8-2"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr_Skuz <138138803+OleksandrSkuz1@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+faker = "^24.11.0"
+rq = "^1.16.1"
+mongoengine = "^0.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
